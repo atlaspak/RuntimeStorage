@@ -1,7 +1,6 @@
 import unittest
 from unittest.mock import Mock
 from CommandManager import CommandManager
-from Mocks.CommandLinerMock import MockCommandLiner
 
 class TestCommandManager(unittest.TestCase):
     def test_init_db(self):
@@ -119,4 +118,3 @@ class TestCommandManager(unittest.TestCase):
         commandManager.commit()
         commandManager.get(["GET", 2])
         mock.print.assert_called_with(3)
-        
