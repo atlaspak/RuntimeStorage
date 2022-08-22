@@ -44,8 +44,8 @@ With the current handling mechanism, we are allowing only one transaction to be 
 
 ## Design
 Current code mechanism consist of three components Script.py and CommandLiner.py is only there to help you to interact with the actual logic. 
-```CommandLiner: Functional class which decides which function to be called and send responses to the UI```
-```Storage: Data class for storing each pair of data and keep track of the occurence of each value```
+```CommandLiner:``` Functional class which decides which function to be called and send responses to the UI  
+```Storage:``` Data class for storing each pair of data and keep track of the occurence of each value
 
 
 ## Usage
