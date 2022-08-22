@@ -9,18 +9,24 @@ Access, add, delete time complexity is O(1) which makes it a good candidate wher
 Counter is wrapped version of the Dictionary only difference is values are counts of the keys.
 
 This two data structure help this project the keep count of each data which costs us O(N) extra space for value pair.
+
 ```Add: O(1) Access: O(1) Delete: O(1) Counting: O(1)```
+
 ```Space: O(N) for data + O(N) for counts```
 
 ### Alternative Solutions
 #### Naive approach: 
 Single list for entire data. This approach would use the smallest space possible. No redudancy, single storage for each data. Basic operations would already need to iteration of entire list. 
+
 ```Add: O(1) Access: O(N) Delete: O(N) Counting: O(N)```
+
 ```Space: O(N)```
 
 #### Optimized Naive approach:
 Single Dictionary for entire data. This approach would use the smallest space possibe. Only costly operation for this approach would be the cost of counting values.
+
 ```Add: O(1) Access: O(1) Delete: O(1) Counting: O(N)```
+
 ```Space: O(N)```
 
 
